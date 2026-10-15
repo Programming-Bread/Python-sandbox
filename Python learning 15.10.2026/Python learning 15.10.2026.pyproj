@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b942ff7b-4d8a-4265-892b-5146f04015c2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Python_learning_15.10.2026.py</StartupFile>
+    <StartupFile>Python_learning_CS50.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Python_learning_15.10.2026.py" />
+    <Compile Include="Python_learning_CS50.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
