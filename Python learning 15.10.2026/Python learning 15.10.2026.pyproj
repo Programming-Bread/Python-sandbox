@@ -11,6 +11,9 @@
     <OutputPath>.</OutputPath>
     <Name>Python learning 15.10.2026</Name>
     <RootNamespace>Python learning 15.10.2026</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
