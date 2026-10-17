@@ -49,9 +49,26 @@ name = input("What is your name?")
 name = name.strip()
 name = name.capitalize() #capitalize() method returns a copy of the string with its first character capitalized and the rest lowercased.
 print(f"Hello, {name}!")
-"""
+
 # What about surname?
 name = input("What is your name?")
 name = name.strip()
 name =name.title() #title() method returns a copy of the string with the first character of each word capitalized and the rest lowercased.
 print(f"Hello, {name}!")
+
+# but we can combine it together:
+name = input("What is your name?")
+name = name.strip().title()
+print(f"Hello, {name}!")
+
+#also we can do this this way, so there only 2 lines of code:
+name = input("What is your name?").strip().title()
+print(f"Hello, {name}!")
+"""
+#so separate name from surname
+name = input("What is your name?").strip().title()
+first_name, last_name = name.split(" ") 
+#split() method splits a string into a list of substrings based on a specified delimiter (in this case, a space).
+print(f"Hello {first_name} {last_name}")
+
+
