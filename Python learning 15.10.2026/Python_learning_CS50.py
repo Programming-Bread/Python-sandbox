@@ -64,11 +64,35 @@ print(f"Hello, {name}!")
 #also we can do this this way, so there only 2 lines of code:
 name = input("What is your name?").strip().title()
 print(f"Hello, {name}!")
-"""
+
 #so separate name from surname
 name = input("What is your name?").strip().title()
 first_name, last_name = name.split(" ") 
 #split() method splits a string into a list of substrings based on a specified delimiter (in this case, a space).
 print(f"Hello {first_name} {last_name}")
 
+###### Intigers ######
 
+# lets make basic calculations
+x = 1
+y = 2 
+z = x + y
+print(z) 
+
+# lets add some variables so it wont be so boring
+x = input ("x: ")
+y = input ("y: ")
+z = int(x) + int(y) #without int this function will concatenate the strings, not add them as numbers
+print (z)
+"""
+# maybe we could not use additional variables, and do it in one line:
+print(int(input("x: ")) + int(input("y: ")))
+# but this is not a good practice, because it is not readable and understandable for other people
+
+#float is a data type that represents decimal numbers; "float" in Python.
+print(float(input("x: ")) + float(input("y: ")))
+
+#round() function returns a number rounded to a specified number of decimal places.
+
+print(input("y: "))
+print (round(x+y)) #round to 2 decimal places
